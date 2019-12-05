@@ -13,6 +13,10 @@
 		2A2339022388DB4000BE3128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2339002388DB4000BE3128 /* Main.storyboard */; };
 		2A2339042388DB4200BE3128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2339032388DB4200BE3128 /* Assets.xcassets */; };
 		2A2339072388DB4200BE3128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2339052388DB4200BE3128 /* LaunchScreen.storyboard */; };
+		2AA79E6B2390B4E1004CCC55 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA79E692390B4E1004CCC55 /* QRScanViewController.swift */; };
+		2AA79E6C2390B4E1004CCC55 /* QRScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA79E6A2390B4E1004CCC55 /* QRScanViewController.xib */; };
+		2AAE649A238E1B8A0051D273 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE6499238E1B8A0051D273 /* QRCodeViewController.swift */; };
+		2AB897AB238FAE8F0058137F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB897AA238FAE8F0058137F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2A2339032388DB4200BE3128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2339062388DB4200BE3128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2339082388DB4200BE3128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA79E692390B4E1004CCC55 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		2AA79E6A2390B4E1004CCC55 /* QRScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRScanViewController.xib; sourceTree = "<group>"; };
+		2AAE6499238E1B8A0051D273 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		2AB897AA238FAE8F0058137F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				2A2338FA2388DB4000BE3128 /* AppDelegate.swift */,
 				2A2338FC2388DB4000BE3128 /* SceneDelegate.swift */,
 				2A2338FE2388DB4000BE3128 /* ViewController.swift */,
+				2AB897AA238FAE8F0058137F /* HomeViewController.swift */,
 				2A2339002388DB4000BE3128 /* Main.storyboard */,
 				2A2339032388DB4200BE3128 /* Assets.xcassets */,
 				2A2339052388DB4200BE3128 /* LaunchScreen.storyboard */,
 				2A2339082388DB4200BE3128 /* Info.plist */,
+				2AAE6499238E1B8A0051D273 /* QRCodeViewController.swift */,
+				2AA79E692390B4E1004CCC55 /* QRScanViewController.swift */,
+				2AA79E6A2390B4E1004CCC55 /* QRScanViewController.xib */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA79E6C2390B4E1004CCC55 /* QRScanViewController.xib in Resources */,
 				2A2339072388DB4200BE3128 /* LaunchScreen.storyboard in Resources */,
 				2A2339042388DB4200BE3128 /* Assets.xcassets in Resources */,
 				2A2339022388DB4000BE3128 /* Main.storyboard in Resources */,
@@ -140,7 +153,10 @@
 			files = (
 				2A2338FF2388DB4000BE3128 /* ViewController.swift in Sources */,
 				2A2338FB2388DB4000BE3128 /* AppDelegate.swift in Sources */,
+				2AA79E6B2390B4E1004CCC55 /* QRScanViewController.swift in Sources */,
+				2AAE649A238E1B8A0051D273 /* QRCodeViewController.swift in Sources */,
 				2A2338FD2388DB4000BE3128 /* SceneDelegate.swift in Sources */,
+				2AB897AB238FAE8F0058137F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRMKK2QA6B;
 				INFOPLIST_FILE = Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRMKK2QA6B;
 				INFOPLIST_FILE = Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
